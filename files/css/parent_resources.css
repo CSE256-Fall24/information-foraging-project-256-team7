@@ -1,2 +1,6 @@
 @import url("common.css");
 @import url("accordian.css");
+
+button .accordian {
+    font-weight: bold;
+}
