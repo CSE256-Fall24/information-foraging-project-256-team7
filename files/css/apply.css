@@ -2,3 +2,11 @@
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
+
+div .form{
+    padding: 15px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(235, 234, 232);
+}
