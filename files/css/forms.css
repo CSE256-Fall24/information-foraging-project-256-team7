@@ -20,3 +20,11 @@ main li {
     list-style-type: disc;
     margin-bottom: 15px;
 }
+
+div .form{
+    padding: 15px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(235, 234, 232);
+}
