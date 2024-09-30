@@ -24,3 +24,32 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    grid-column: span 2; /* Make the main header span full width */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Center the images */
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+}

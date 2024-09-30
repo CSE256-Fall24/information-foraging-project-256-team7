@@ -1,16 +1,6 @@
 @import url("common.css");
-@import url("side_menu.css");
-main ul {
-    margin-top: 1em;
-    list-style-type: none;
-}
 
-main li {
-    font-size: 1.15em;
-    margin-bottom: 1em;
-}
-
-.classroom {
+.event {
     text-align: center;
     clear: both;
     overflow: hidden;
@@ -21,20 +11,20 @@ main li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.classroom img {
+.event img {
     display: block; 
     margin: 10px auto; 
     max-width: 100%;
     height: auto; 
 }
 
-.classroom p {
+.event p {
     font-size: 1.15em;
     margin-top: 1em; 
 }
 
-.class-grid {
+.event-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(4, auto);
     gap: 20px;
 }
