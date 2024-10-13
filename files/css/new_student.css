@@ -1,0 +1,168 @@
+@import url("common.css");
+@import url("side_menu.css");
+
+/* General styles */
+
+.admissions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #a51417;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admissions-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step {
+    background-color: #f9f9f9;
+    border-left: 5px solid #a51417;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.step h2 {
+    color: #a51417;
+    margin-top: 0;
+}
+
+.step ul {
+    padding-left: 20px;
+}
+
+.admissions-note {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.admissions-note h3 {
+    margin-top: 0;
+    color: #a51417;
+}
+
+a {
+    color: #a51417;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Application options */
+.application-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #a51417;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #8a1114;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+.or-divider {
+    font-style: italic;
+    color: #666;
+}
+
+.enrollment-button {
+    margin-top: 15px;
+}
+
+.enrollment-button .btn {
+    display: inline-block;
+}
+
+/* Contact information styles */
+.contact-info {
+    margin-top: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contact-item {
+    margin-bottom: 5px;
+}
+
+.contact-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.contact-value {
+    color: #333;
+}
+
+.contact-value a {
+    color: #a51417;
+}
+
+.contact-value a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .admissions-container {
+        padding: 10px;
+    }
+
+    .step {
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .application-options {
+        flex-direction: column;
+    }
+}

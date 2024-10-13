@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="files/css/returning_students.css">
+  <title>Returning Students | Nursery School | Washington University in St. Louis</title>
+</head>
+
+<body>
+  <ts-load data-name="header"></ts-load>
+
+  <div id="page-content">
+    <main>
+      <h1>Returning Students</h1>
+      
+      <div class="form-container">
+        <div class="form-card">
+          <h2>Developmental History Form</h2>
+          <p>Once accepted into the school, fill out the Developmental History Form. This form only needs to be filled out once.</p>
+          <a href="files/developmental.html" class="btn btn-primary">Fill out form</a>
+        </div>
+
+        <div class="form-card">
+          <h2>Medical Forms</h2>
+          <p>The following medical forms are only available as PDFs and must be filled out and returned:</p>
+          <ul class="medical-forms-list">
+            <li><a href="downloads/examination_report.pdf" target="_blank" class="btn btn-secondary">Child Medical Examination Report</a></li>
+            <li><a href="downloads/immunization_history.pdf" target="_blank" class="btn btn-secondary">Immunization Consent/History</a></li>
+          </ul>
+        </div>
+
+        <div class="form-card">
+          <h2>Bear Tracks Enrollment</h2>
+          <p>This form is for enrollment in the morning or afternoon Bear Tracks class (extended day).</p>
+          <form action="#" class="bear-tracks-form">
+            <div class="form-group">
+              <label for="child-name">Child's Name*:</label>
+              <input type="text" id="child-name" required>
+            </div>
+            <div class="form-group">
+              <p>What day(s) will your child attend Bear Tracks for the first semester?</p>
+              <label><input type="checkbox" name="day-to-attend" value="Monday"> Monday (Afternoon Only)</label>
+              <label><input type="checkbox" name="day-to-attend" value="Tuesday"> Tuesday</label>
+              <label><input type="checkbox" name="day-to-attend" value="Wednesday"> Wednesday</label>
+              <label><input type="checkbox" name="day-to-attend" value="Thursday"> Thursday</label>
+              <label><input type="checkbox" name="day-to-attend" value="Friday"> Friday</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <div class="widget-area stick secondary" role="complementary">
+      <ul class="subnav">
+        <li class="page_item page-item-10509 page_item_has_children current_page_item">
+          <a href="files/new_student.html" aria-current="page">Admissions and Forms</a>
+          <ul class="children">
+            <li><hr></li>
+            <li class="page_item page-item-10511">
+              <a href="files/new_student.html">New Student Admission</a>
+            </li>
+            <li><hr></li>
+            <li class="page_item page-item-10511">
+              <a href="files/returning_students.html">Returning Students</a>
+            </li>
+            <li><hr></li>
+            <li class="page_item page-item-45">
+              <a href="files/tuition_apply.html">Tuition</a>
+            </li>
+            <li><hr></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ts-load data-name="footer"></ts-load>
+  <script src="scripts/js/app.js"></script>
+</body>
+
+</html>

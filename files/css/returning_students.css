@@ -1,0 +1,122 @@
+@import url("common.css");
+@import url("side_menu.css");
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #a51417;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form container styles */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Form card styles */
+.form-card {
+    background-color: #f9f9f9;
+    border-left: 5px solid #a51417;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-card h2 {
+    color: #a51417;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #a51417;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #8a1114;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+/* Bear Tracks form styles */
+.bear-tracks-form {
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .form-container {
+        grid-template-columns: 1fr;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Medical forms list styles */
+.medical-forms-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.medical-forms-list li {
+    margin-bottom: 15px;
+}
+
+.medical-forms-list .btn {
+    display: block;
+    width: 100%;
+}
