@@ -9,3 +9,7 @@
     clear: both;
     overflow: auto;
 }
+
+button .accordian {
+    font-weight: bold;
+}
