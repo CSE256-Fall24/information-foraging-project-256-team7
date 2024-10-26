@@ -109,7 +109,7 @@ export class Scroll {
 
     private attemptScroll() {
         if ('requestAnimationFrame' in window === false) {
-            window.scroll(0, this.endPos);
+            (window as any).scroll(0, this.endPos);
         }
         this.scroll();
     }

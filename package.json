@@ -27,7 +27,7 @@
     "prettier": "^2.2.1",
     "stringify": "^5.2.0",
     "tsify": "^5.0.4",
-    "typescript": "^3.7.4",
+    "typescript": "^5.6.3",
     "watchify": "^4.0.0"
   }
 }
